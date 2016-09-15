@@ -32,24 +32,29 @@ body {background: linear-gradient(to right, #ff9758, #fd4f2d);
           margin-left: 45px;
 }
 
-.sign {height: 20px;
-      width: 20px;
+.sign {height: 16px;
+      width: 16px;
       background-color: #bebebe;
       text-align: center;
       border-radius: 10px;
       color: white;
       display: inline-block;
+      line-height: 16px;
+      cursor: pointer;
+      vertical-align: middle;
 }
 
 .one {height: 30px;
-      width: 30px;
+      width: 40px;
       border-color: #bebebe;
       border-style: solid;
       text-align: center;
-      font-size: 25px;
+      font-size: 20px;
       display: inline-block;
-      margin-left: 80px;
-      margin-top: 50px
+      vertical-align: middle;
+      border-radius: 5px;
+      border-width: 1px;
+
 }
 
 button {height:50px;
@@ -60,7 +65,6 @@ button {height:50px;
         color: white;
         display: block;
         margin: 30px;
-
 }
 
 .second {height:400px;
@@ -92,3 +96,6 @@ img {margin-left: 14px;
       margin-right: auto;
       width: 563px;
 }
+.amount {margin-top: 50px;
+        text-align: center;
+      }
