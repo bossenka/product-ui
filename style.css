@@ -81,6 +81,11 @@ button {
   color: white;
   display: block;
   margin: 10px 30px 30px 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9758;
 }
 
 .second {
