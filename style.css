@@ -90,11 +90,12 @@ button {
   border-radius: 0px 20px 20px 0px;
   display: inline-block;
   margin-left: 3px;
+  text-align: right;
+  position: relative;
 }
 
 img {
-  margin-left: 14px;
-  margin-top: 25px;
+  margin-top: 90px;
 }
 
 .add {
@@ -106,8 +107,9 @@ img {
   font-size: 45px;
   border-radius: 45px;
   box-shadow:  2px 2px 2px 2px #f24f2c;
-  float: right;
-  margin-top: 80px;
+  position:absolute;
+  right: -15px;
+  bottom: -15px;
 }
 
 .main {
