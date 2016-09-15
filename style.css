@@ -26,8 +26,6 @@ body {background: linear-gradient(to right, #ff9758, #fd4f2d);
         border-radius: 20px 0px 0px 20px;
         display: inline-block;
         float: left;
-        margin-left: 500px;
-        margin-top:150px;
         }
 
 .review {display: inline-block;
@@ -70,7 +68,6 @@ button {height:50px;
         background-color: #ffffff;
         border-radius: 0px 20px 20px 0px;
         display: inline-block;
-        margin-top: 150px;
         margin-left: 3px;
 }
 
@@ -88,4 +85,10 @@ img {margin-left: 14px;
       box-shadow:  2px 2px 2px 2px #f24f2c;
       float: right;
       margin-top: 80px;
+}
+
+.main {margin-top: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 563px;
 }
