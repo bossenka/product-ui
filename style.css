@@ -1,4 +1,4 @@
-h1 {font-family: arial;
+h1 {font-family: arial, sans-serif;
     text-align: center;
 }
 
@@ -64,7 +64,7 @@ button {height:50px;
         border: none;
         color: white;
         display: block;
-        margin: 30px;
+        margin: 10px 30px 30px 30px;
 }
 
 .second {height:400px;
@@ -76,7 +76,7 @@ button {height:50px;
 }
 
 img {margin-left: 14px;
-      margin-top: 18px;
+      margin-top: 25px;
 }
 
 .add {height: 50px;
@@ -96,6 +96,13 @@ img {margin-left: 14px;
       margin-right: auto;
       width: 563px;
 }
-.amount {margin-top: 50px;
+.amount {margin-top: 0px;
         text-align: center;
       }
+
+p {font-family: verdana, sans-serif;
+  color: #5b6d6b;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 20px;
+}
